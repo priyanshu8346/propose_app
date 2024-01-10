@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Salsa', cursive;
+}
+.main_body{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(86, 86, 241);
+  text-align: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.image_main{
+  width: 100vw;
+  height: auto;
+}
+
+.image_main > img{
+  max-height: 250px;
+  width: auto;
+  /* object-fit: contain; */
+}
+
+.propose_text{
+  color: white;
+  font-size: xx-large;
+  font-family: 'Salsa', cursive;
+}
+
+.buttons{
+  margin-top: 50px;
+}
+
+button{
+  padding: 10px 30px;
+  border-radius: 8px;
+  margin: 10px;
+  background-color: cornflowerblue;
+  color:white;
+  font-size: larger;
+  font-family: 'Salsa', cursive;
+  cursor: pointer;
+}
+
+#no_button{
+  position: relative;
+}
